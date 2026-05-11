@@ -114,7 +114,7 @@ export default function Page() {
               <p className="info-section-label">행사 정보</p>
               <div className="info-table" role="list" aria-label="행사 기본 정보">
                 {([
-                  { label: "일시",   main: "5월 17일 (일)",        sub: "오후 3:30 - 5:30" },
+                  { label: "일시",   main: "5월 17일 (일)",        sub: "오후 3:00 - 5:00" },
                   { label: "장소",   main: "서울 서초구",           sub: "서도빌딩 지하1층 카페위드" },
                   { label: "참가비", main: "20,000원",              sub: null },
                   { label: "정원",   main: "선착순 20명",           sub: null },
@@ -303,7 +303,7 @@ export default function Page() {
                 지금 신청하면<br />자리를 확보할 수 있어요
               </h2>
               <p style={{ fontSize: "var(--t-sm)", color: "rgba(0,0,0,0.55)", lineHeight: 1.75 }}>
-                5월 17일 일요일 · 오후 3시 30분 — 5시 30분<br />
+                5월 17일 일요일 · 오후 3시 — 5시<br />
                 서울 서초구 서도빌딩 지하1층 카페위드 · 참가비 20,000원<br />
                 <span style={{ color: "rgba(0,0,0,0.35)", fontSize: "var(--t-xs)", marginTop: 6, display: "block" }}>
                   행사 2일 전까지 취소 시 전액 환불
