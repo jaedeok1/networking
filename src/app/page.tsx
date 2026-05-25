@@ -115,7 +115,7 @@ export default function Page() {
               <div className="info-table" role="list" aria-label="행사 기본 정보">
                 {([
                   { label: "일시",   main: "6월 6일 (토)",        sub: "오후 2:00 - 4:00" },
-                  { label: "장소",   main: "서울 서초구",           sub: "서도빌딩 지하1층 카페위드" },
+                  { label: "장소",   main: "서울 서초구 서초대로49길 9",  sub: "서도빌딩 지하 1층 카페위드" },
                   { label: "참가비", main: "20,000원",              sub: null },
                   { label: "정원",   main: "선착순 20명",           sub: null },
                 ] as { label: string; main: string; sub: string | null }[]).map(({ label, main, sub }) => (
@@ -304,7 +304,7 @@ export default function Page() {
               </h2>
               <p style={{ fontSize: "var(--t-sm)", color: "rgba(0,0,0,0.55)", lineHeight: 1.75 }}>
                 6월 6일 토요일 · 오후 2시 — 4시<br />
-                서울 서초구 서도빌딩 지하1층 카페위드 · 참가비 20,000원<br />
+                서울 서초구 서초대로49길 9 서도빌딩 지하 1층 카페위드 · 참가비 20,000원<br />
                 <span style={{ color: "rgba(0,0,0,0.35)", fontSize: "var(--t-xs)", marginTop: 6, display: "block" }}>
                   행사 2일 전까지 취소 시 전액 환불
                 </span>
