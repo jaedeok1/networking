@@ -14,7 +14,7 @@ import FaqAccordion from "@/components/FaqAccordion";
 import Countdown from "@/components/Countdown";
 
 /* ── 설정 ──────────────────────────────────────────── */
-const APPLY        = "https://open.kakao.com/o/gIlirjui";
+const APPLY        = "https://open.kakao.com/o/gQL7Pywi";
 const CONTACT      = "https://open.kakao.com/o/sB3O6Dzh";
 const DEADLINE_ISO = "2026-06-05T23:59:59+09:00";
 
