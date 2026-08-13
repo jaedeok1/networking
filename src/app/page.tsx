@@ -129,6 +129,11 @@ export default function Page() {
                 ))}
               </div>
 
+              {/* 장소 변경 안내 */}
+              <p style={{ fontSize: "var(--t-xs)", color: "var(--muted)", marginTop: 16, lineHeight: 1.6 }}>
+                💡 <strong>장소 안내:</strong> 행사 장소는 대관 상황에 따라 변경될 수 있으니, 행사 전날 꼭 확인해주세요.
+              </p>
+
               {/* CTA */}
               <div className="hero-cta">
                 <a href={APPLY} target="_blank" rel="noopener noreferrer"
