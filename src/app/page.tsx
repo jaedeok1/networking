@@ -12,6 +12,7 @@ import React from "react";
 import StickyBar from "@/components/StickyBar";
 import FaqAccordion from "@/components/FaqAccordion";
 import Countdown from "@/components/Countdown";
+import ClosedModal from "@/components/ClosedModal";
 
 /* ── 설정 ──────────────────────────────────────────── */
 const APPLY        = "https://forms.gle/A6mTWDsRWqp9br457";
@@ -87,6 +88,8 @@ function Label({ children }: { children: React.ReactNode }) {
 export default function Page() {
   return (
     <>
+      <ClosedModal />
+
       <StickyBar applyUrl={APPLY} />
 
       <main id="main">
@@ -138,7 +141,7 @@ export default function Page() {
 
               {/* CTA */}
               <div className="hero-cta">
-                <a href={APPLY} target="_blank" rel="noopener noreferrer"
+                <a href={APPLY} data-apply target="_blank" rel="noopener noreferrer"
                   className="btn btn-lg btn-primary" aria-label="카카오톡으로 신청하기">
                   지금 신청하기
                   <ArrowRight size={17} aria-hidden="true" />
@@ -319,7 +322,7 @@ export default function Page() {
             </div>
 
             <div className="cta-btns">
-              <a href={APPLY} target="_blank" rel="noopener noreferrer"
+              <a href={APPLY} data-apply target="_blank" rel="noopener noreferrer"
                 className="btn btn-lg btn-primary-light" aria-label="카카오톡으로 신청하기">
                 신청하기
                 <ArrowRight size={17} aria-hidden="true" />

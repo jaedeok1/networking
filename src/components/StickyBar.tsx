@@ -59,6 +59,7 @@ export default function StickyBar({
         <div style={{ display: "flex", gap: 8 }}>
           <a
             href={applyUrl}
+            data-apply
             target="_blank"
             rel="noopener noreferrer"
             style={{
